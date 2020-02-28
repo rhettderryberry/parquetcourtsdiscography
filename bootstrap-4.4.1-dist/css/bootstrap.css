@@ -202,11 +202,20 @@ img {
 
 .contactdiv {
   background-color: #58a5db;
+  text-align: center;
+  margin-top: -0.5rem;
 } /*MINE*/
 
-/* .discsidebar {
-  text-align: right;
-} MINE */
+.newsdiv {
+  background-color: #d78029;
+  text-align: center;
+}/*MINE*/
+
+.infodiv {
+  background-color: #58a5db;
+  text-align: center;
+  margin-top: -0.5rem;
+}/*MINE*/
 
 svg {
   overflow: hidden;
@@ -390,6 +399,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.75rem;
+  font-family: 'Escrow'; /*MINE*/
 }
 
 h4, .h4 {
@@ -2575,15 +2585,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #007250;
+  background-color: #fef1d0;
+  border-color: #007250;
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  color: #fef1d0;
+  background-color: #007250;
+  border-color: #007250;
 }
 
 .btn-primary:focus, .btn-primary.focus {
