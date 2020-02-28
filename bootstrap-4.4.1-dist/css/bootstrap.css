@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  /* --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -25,7 +25,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #343a40; */
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -153,14 +153,13 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
+  color: #007250;
+  text-decoration: underline;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: #58a5db;
 }
 
 a:not([href]) {
@@ -196,9 +195,26 @@ img {
   border-style: none;
 }
 
+.discdiv {
+  background-color: #d78029;
+  text-align: center;
+} /*MINE*/
+
+.contactdiv {
+  background-color: #58a5db;
+} /*MINE*/
+
+/* .discsidebar {
+  text-align: right;
+} MINE */
+
 svg {
   overflow: hidden;
   vertical-align: middle;
+}
+
+.logo {
+  background-color: #34363a;
 }
 
 table {
@@ -364,10 +380,12 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
+  font-family: 'Escrow'; /*MINE*/
 }
 
 h2, .h2 {
   font-size: 2rem;
+  font-family: 'Amador'; /*MINE*/
 }
 
 h3, .h3 {
@@ -4226,6 +4244,9 @@ input[type="button"].btn-block {
 }
 
 .nav {
+  background-color: #fef1d0;
+  border: 1px solid #007250;
+  color: #007250;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -4233,7 +4254,19 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-}
+  font-family: 'Escrow';
+} /*MINE*/
+
+.nav h1 {
+  font-family: 'Amador' !important;
+  align-items: center;
+} /*MINE*/
+
+.nav ul {
+  list-style: none;
+  text-align: right;
+  margin-bottom: -3px;
+} /*MINE*/
 
 .nav-link {
   display: block;
@@ -4331,7 +4364,6 @@ input[type="button"].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem;
 }
-
 .navbar .container,
 .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
   display: -ms-flexbox;
