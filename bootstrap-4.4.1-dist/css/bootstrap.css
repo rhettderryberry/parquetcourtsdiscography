@@ -241,6 +241,11 @@ img {
   text-align: left;
 }/*MINE*/
 
+.bandinfo {
+  background-color: #58a5db;
+  text-align: left;
+}/*MINE*/
+
 svg {
   overflow: hidden;
   vertical-align: middle;
