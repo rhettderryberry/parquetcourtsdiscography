@@ -224,6 +224,16 @@ img {
   margin-top: -1rem;
 }/*MINE*/
 
+.contactform {
+  background-color: #58a5db;
+  text-align: left;
+  margin-bottom: 1rem;
+}/*MINE*/
+
+.contactform label {
+  font-family: 'Amador';
+}/*MINE*/
+
 svg {
   overflow: hidden;
   vertical-align: middle;
