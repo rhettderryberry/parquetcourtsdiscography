@@ -198,6 +198,7 @@ img {
 .discdiv {
   background-color: #d78029;
   text-align: center;
+  margin-top: -1rem;
 } /*MINE*/
 
 .contactdiv {
@@ -215,6 +216,12 @@ img {
   background-color: #58a5db;
   text-align: center;
   margin-top: -0.5rem;
+}/*MINE*/
+
+.albumdiv {
+  background-color: #58a5db;
+  text-align: left;
+  margin-top: -1rem;
 }/*MINE*/
 
 svg {
