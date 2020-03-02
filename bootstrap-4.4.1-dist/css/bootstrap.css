@@ -248,7 +248,7 @@ img {
   margin-bottom: 1.5rem;
 }/*MINE*/
 
-.bandinfo h1, h2, ul {
+.bandinfo h1, .bandinfo h2, .bandinfo ul {
   text-align: center;
 }/*MINE*/
 
