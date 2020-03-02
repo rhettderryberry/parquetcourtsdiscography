@@ -240,6 +240,14 @@ img {
   text-align: left;
 }/*MINE*/
 
+.bandinfo img {
+  margin-bottom: 1.5rem;
+}/*MINE*/
+
+.bandinfo h1, h2, ul {
+  text-align: center;
+}/*MINE*/
+
 svg {
   overflow: hidden;
 }
