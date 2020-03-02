@@ -246,6 +246,7 @@ svg {
 
 .logo {
   background-color: #34363a;
+  grid-row: 1/5;
 }/*MINE*/
 
 table {
@@ -693,6 +694,10 @@ pre code {
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
+}
+
+.col-md-7 {
+  grid-row: span;
 }
 
 .row-cols-1 > * {
