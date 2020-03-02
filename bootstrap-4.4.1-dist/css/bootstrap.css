@@ -230,6 +230,10 @@ img {
   font-family: 'Amador';
 }/*MINE*/
 
+.contactform h1 {
+  text-align: center;
+}/*MINE*/
+
 .newsitem {
   background-color: #58a5db;
   text-align: left;
