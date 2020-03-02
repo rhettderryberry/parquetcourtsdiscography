@@ -242,12 +242,11 @@ img {
 
 svg {
   overflow: hidden;
-  vertical-align: middle;
 }
 
 .logo {
   background-color: #34363a;
-}
+}/*MINE*/
 
 table {
   border-collapse: collapse;
