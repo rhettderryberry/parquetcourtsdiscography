@@ -9,13 +9,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://use.typekit.net/ggn7byp.css">
   <!--TypeKit fonts-->
-  <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="www/css/styles.css">
   <!--Bootstrap stylesheet-->
   <title>Parquet Courts • Contact</title>
 </head>
 
 <body>
-  <div class="nav navbar">
+  <div class="nav">
     <h1>Parquet Courts</h1>
     <ul>
       <a href="#">
@@ -32,70 +32,80 @@
       </a>
     </ul>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="contactform col-md-7">
-        <h1>Sign Up for Our Newsletter</h1>
-        <form action="#" id="contactform">
-          <label for="firstname">First Name</label><br>
-          <input type="text" id="firstname" name="firstname"><br>
-          <label for="lastname">Last Name</label><br>
-          <input type="text" id="lastname" name="lastname"><br>
-          <label for="address">Street Address</label><br>
-          <input type="text" id="address" name="address"><br>
-          <label for="city">City</label><br>
-          <input type="text" id="city" name="city"><br>
-          <label for="state">State</label><br>
-          <input type="text" id="state" name="state"><br>
-          <label for="zipcode">Zip Code</label><br>
-          <input type="number" id="zipcode" name="zipcode"><br>
-          <label for="birthdate">Birth Date</label><br>
-          <input type="date" id="birthdate" name="birthdate"><br>
-          <label for="email">Email</label><br>
-          <input type="email" id="email" name="email"><br>
-          <label for="comments">Comments</label><br>
-          <textarea name="comments" id="comments" form="contactform" cols="30" rows="10"></textarea><br>
-          <input type="submit" value="Sign Up" class="btn-primary">
+  <div class="contactform">
+    <h1>Sign Up for Our Newsletter</h1>
+    <form action="#" id="contactform">
+      <div class="firstnamediv">
+        <label for="firstname">First Name</label><br>
+        <input type="text" id="firstname" name="firstname"><br>
       </div>
-      <div class="discdiv col-md-5">
-        <h1>Discography</h1>
-        <img src="www/images/americanspecialties.jpg" alt="American Specialties" width="300px">
-        <h2>American Specialties</h2>
-        <img src="www/images/lightupgold.jpg" alt="Light Up Gold" width="300px">
-        <h2>Light Up Gold</h2>
-        <img src="www/images/sunbathinganimal.jpg" alt="Sunbathing Animal" width="300px">
-        <h2>Sunbathing Animal</h2>
-        <img src="www/images/contentnausea.jpg" alt="Content Nausea" width="300px">
-        <h2>Content Nausea</h2>
-        <img src="www/images/humanperformance.jpg" alt="Human Performance" width="300px">
-        <h2>Human Performance</h2>
-        <img src="www/images/wideawake.jpg" alt="Wide Awake" width="300px">
-        <h2>Wide Awake!</h2>
+      <div class="lastnamediv">
+        <label for="lastname">Last Name</label><br>
+        <input type="text" id="lastname" name="lastname"><br>
       </div>
-    </div>
-    <div class="row justify-content-end">
-      <div class="infodiv col-md-5">
-        <h1>Info</h1>
-        <img src="www/images/band.jpg" alt="Parquet Courts" width="300px">
-        <h2>Background Info</h2>
-        <button class="btn-primary">Learn More</button>
+      <div class="addressdiv">
+        <label for="address">Street Address</label><br>
+        <input type="text" id="address" name="address"><br>
       </div>
-    </div>
-    <div class="row justify-content-end">
-      <div class="newsdiv col-md-5">
-        <h1>News</h1>
-        <img src="www/images/liveshow.jpg" alt="Free Show" width="300px">
-        <h2>Parquet Courts at The Parish, Austin TX</h2>
-        <img src="www/images/gallery.jpg" alt="Opening Reception" width="300px">
-        <h2>A. Savage & Jason Murphy - Opening Reception at Harpy Gallery</h2>
-        <img src="www/images/lprshow.jpg" alt="Le Poisson Rouge Show" width="300px">
-        <h2>A. Savage at Le Poisson Rouge, New York NY</h2>
-        <img src="www/images/sweater.jpeg" alt="Monastic Living" width="300px">
-        <h2>Monastic Living Sweaters</h2>
-        <img src="www/images/golddiggersgallery.jpg" alt="Gold-Diggers" width="300px">
-        <h2>A. Savage - Open House at Gold-Diggers Hotel</h2>
+      <div class="citydiv">
+        <label for="city">City</label><br>
+        <input type="text" id="city" name="city"><br>
       </div>
-    </div>
+      <div class="statediv">
+        <label for="state">State</label><br>
+        <input type="text" id="state" name="state"><br>
+      </div>
+      <div class="zipcodediv">
+        <label for="zipcode">Zip Code</label><br>
+        <input type="number" id="zipcode" name="zipcode"><br>
+      </div>
+      <div class="birthdatediv">
+        <label for="birthdate">Birth Date</label><br>
+        <input type="date" id="birthdate" name="birthdate"><br>
+      </div>
+      <div class="emaildiv">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br>
+      </div>
+      <div class="commentsdiv">
+        <label for="comments">Comments</label><br>
+        <textarea name="comments" id="comments" form="contactform" cols="30" rows="10"></textarea><br>
+      </div>
+      <input type="submit" value="Sign Up" class="contactbtn">
+  </div>
+  <div class="discdiv">
+    <h1>Discography</h1>
+    <img src="www/images/americanspecialties.jpg" alt="American Specialties" width="300px">
+    <h2>American Specialties</h2>
+    <img src="www/images/lightupgold.jpg" alt="Light Up Gold" width="300px">
+    <h2>Light Up Gold</h2>
+    <img src="www/images/sunbathinganimal.jpg" alt="Sunbathing Animal" width="300px">
+    <h2>Sunbathing Animal</h2>
+    <img src="www/images/contentnausea.jpg" alt="Content Nausea" width="300px">
+    <h2>Content Nausea</h2>
+    <img src="www/images/humanperformance.jpg" alt="Human Performance" width="300px">
+    <h2>Human Performance</h2>
+    <img src="www/images/wideawake.jpg" alt="Wide Awake" width="300px">
+    <h2>Wide Awake!</h2>
+  </div>
+  <div class="infodiv">
+    <h1>Info</h1>
+    <img src="www/images/band.jpg" alt="Parquet Courts" width="300px">
+    <h2>Background Info</h2>
+    <button class="btn">Learn More</button>
+  </div>
+  <div class="newsdiv">
+    <h1>News</h1>
+    <img src="www/images/liveshow.jpg" alt="Free Show" width="300px">
+    <h2>Parquet Courts at The Parish, Austin TX</h2>
+    <img src="www/images/gallery.jpg" alt="Opening Reception" width="300px">
+    <h2>A. Savage & Jason Murphy - Opening Reception at Harpy Gallery</h2>
+    <img src="www/images/lprshow.jpg" alt="Le Poisson Rouge Show" width="300px">
+    <h2>A. Savage at Le Poisson Rouge, New York NY</h2>
+    <img src="www/images/sweater.jpeg" alt="Monastic Living" width="300px">
+    <h2>Monastic Living Sweaters</h2>
+    <img src="www/images/golddiggersgallery.jpg" alt="Gold-Diggers" width="300px">
+    <h2>A. Savage - Open House at Gold-Diggers Hotel</h2>
   </div>
 </body>
 
