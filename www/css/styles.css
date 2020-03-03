@@ -1,0 +1,22 @@
+.nav {
+    background-color: #fef1d0;
+    border: 1px solid #007250;
+}
+.nav h1, .nav li {
+    color: #007250;
+}
+.nav ul {
+    font-family: 'Aktiv Grotesk';
+    list-style: none;
+    text-align: right;
+    margin-top: -60px;
+}
+.nav h1 {
+    font-family: 'Amador';
+}
+.nav a {
+    text-decoration: none;
+}
+.nav a:hover {
+    color: #58a5db;
+}
