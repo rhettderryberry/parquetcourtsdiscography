@@ -260,12 +260,13 @@ h2 {
         text-decoration: underline;
     }
     .overflow {
-        height: 88.2vh;
+        height: 89vh;
         overflow: scroll;
+        overflow-x: hidden;
     }
     .logo {
         background-color: #34363a;
-        height: 87vh;
+        height: 89vh;
         display: flex;
         align-content: center;
         grid-area: logo;
@@ -326,6 +327,9 @@ h2 {
        padding: 8px;
        border: 2px solid #d78029;
        border-radius: 4px;
+    }
+    .btn:hover {
+        cursor: pointer;
     }
     .newsdiv {
         background-color: #d78029;
