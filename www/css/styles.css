@@ -31,25 +31,25 @@ h2 {
     text-decoration: none;
 }
 .nav a:hover {
-    color: #58a5db;
+    text-decoration: underline;
 }
 .logo {
     background-color: #34363a;
     height: 100vh;
     display: flex;
     align-content: center;
-    margin-bottom: -35px;
+    margin-bottom: -33px;
 }
 .discdiv {
     background-color: #d78029;
     text-align: center;
-    margin-bottom: -35px;
+    margin-bottom: -32px;
     padding-bottom: 15px;
 }
 .contactdiv {
     background-color: #58a5db;
     text-align: center;
-    margin-bottom: -35px;
+    margin-bottom: -33px;
     padding-bottom: 15px;
 }
 .btn {
@@ -63,11 +63,26 @@ h2 {
 .newsdiv {
     background-color: #d78029;
     text-align: center;
-    margin-bottom: -35px;
+    margin-bottom: -33px;
     padding-bottom: 15px;
 }
 .infodiv {
     background-color: #58a5db;
     text-align: center;
     padding-bottom: 15px;
+}
+.bandinfo {
+    background-color: #58a5db;
+    margin-top: -32px; /*check margins*/
+    margin-bottom: -33px;
+}
+.bandinfo p {
+    font: 1rem 'Aktiv Grotesk';
+}
+.bandinfo h1, .bandinfo h2 {
+    text-align: center;
+}
+.bandinfo ul {
+    display: inline-block;
+    font: 1rem 'Aktiv Grotesk';
 }
