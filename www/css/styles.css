@@ -18,7 +18,7 @@ h2 {
     color: #007250;
 }
 .nav ul {
-    font: 1rem 'Aktiv Grotesk';
+    font: 1rem 'Escrow';
     list-style: none;
     text-align: right;
     margin: 15px 15px 15px auto;
@@ -179,4 +179,25 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+}
+.newsitem {
+    background-color: #58a5db;
+    margin-bottom: -33px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.newsitem img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.newsitem p {
+    font: 1rem 'Aktiv Grotesk';
+}
+.newsitem a {
+    color: #fef1d0;
+}
+.newsitem a:hover {
+    color: #007250;
 }
