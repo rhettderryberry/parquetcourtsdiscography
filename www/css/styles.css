@@ -54,7 +54,7 @@ h2 {
 
 .logo {
     background-color: #34363a;
-    height: 100vh;
+    height:90vh;
     display: flex;
     align-content: center;
     margin-bottom: -33px;
@@ -129,7 +129,7 @@ h2 {
 
 .newsdiv a {
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .newsdiv a:hover {
@@ -351,14 +351,14 @@ h2 {
     }
 
     #disc .discdiv {
-        height: 100vh;
+        height: 90vh;
         margin-top: 0px;
         overflow: scroll;
         overflow-x: hidden;
     }
 
     .discographyblocks {
-        height: 100vh;
+        height: 90vh;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -381,12 +381,12 @@ h2 {
         margin-bottom: -33px;
     }
     #band .overflow {
-        height: 100vh;
+        height: 90vh;
     }
 
     .bandinfo {
         margin-top: 0px;
-        height: 100vh;
+        height: 90vh;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -404,12 +404,12 @@ h2 {
     }
 
     #contact .overflow {
-        height: 100vh;
+        height: 90vh;
     }
 
     .contactform {
         margin-top: 0px;
-        height: 100vh;
+        height: 90vh;
     }
 
     #news {
@@ -424,13 +424,13 @@ h2 {
 
     #news .newsdiv {
         margin-top: 0px;
-        height: 100vh;
+        height: 90vh;
         overflow: scroll;
         overflow-x: hidden;
     }
 
     .newsstoryblocks {
-        height: 100vh;
+        height: 90vh;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -490,14 +490,14 @@ h2 {
     }
 
     .overflow {
-        height: 100vh;
+        height: 90vh;
         overflow: scroll;
         overflow-x: hidden;
     }
 
     .logo {
         background-color: #34363a;
-        height: 100vh;
+        height: 90vh;
         display: flex;
         align-content: center;
         grid-area: logo;
