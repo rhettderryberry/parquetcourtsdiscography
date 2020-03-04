@@ -12,6 +12,10 @@ h2 {
     font: 1.5rem 'Escrow';
 }
 
+.logoimg {
+    width: 100%;
+}
+
 .nav {
     background-color: #fef1d0;
     border: 1px solid #007250;
@@ -41,8 +45,8 @@ h2 {
 }
 
 .nav a:hover {
-    text-decoration: underline;
     color: #007250;
+    text-decoration: underline;
 }
 
 .logo {
@@ -332,11 +336,11 @@ h2 {
     }
 
     #disc .discdiv {
-        height: 84.5vh;
+        height: 87.8vh;
     }
 
     .discographyblocks {
-        height: 86vh;
+        height: 89vh;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -357,12 +361,12 @@ h2 {
         margin-top: 33px;
     }
     #band .overflow {
-        height: 86vh;
+        height: 89vh;
     }
 
     .bandinfo {
         margin-top: 0px;
-        height: 86vh;
+        height: 89vh;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -380,12 +384,12 @@ h2 {
     }
 
     #contact .overflow {
-        height: 87.2vh;
+        height: 88.88vh;
     }
 
     .contactform {
         margin-top: 0px;
-        height: 86vh;
+        height: 87.7vh;
     }
 
     #news {
@@ -400,13 +404,13 @@ h2 {
 
     #news .newsdiv {
         margin-top: 0px;
-        height: 84.8vh;
+        height: 87.8vh;
         overflow: scroll;
         overflow-x: hidden;
     }
 
     .newsstoryblocks {
-        height: 86vh;
+        height: 89vh;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -446,6 +450,11 @@ h2 {
         justify-content: space-between;
     }
 
+    .nav li:hover {
+        color: #007250;
+        text-decoration: underline;
+    }
+
     .nav h1 {
         font: 4rem 'Amador';
         margin: auto auto auto 15px;
@@ -456,6 +465,7 @@ h2 {
     }
 
     .nav a:hover {
+        color: #007250;
         text-decoration: underline;
     }
 
@@ -655,7 +665,7 @@ h2 {
         border-radius: 4px;
         grid-column: 2/2;
         position: relative;
-        left: 10%;
+        left: 13%;
     }
 
     .albumdiv {
