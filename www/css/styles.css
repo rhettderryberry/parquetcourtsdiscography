@@ -70,6 +70,13 @@ h2 {
     color: #000;
 }
 
+.discdiv img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
 .contactdiv {
     background-color: #58a5db;
     text-align: center;
@@ -112,6 +119,13 @@ h2 {
 .newsdiv a:hover {
     color: #000;
     text-decoration: underline;
+}
+
+.newsdiv img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 .infodiv {
@@ -255,6 +269,10 @@ h2 {
     width: 75%;
 }
 
+.albumdiv p {
+    font: 1rem 'Aktiv Grotesk';
+}
+
 .newsitem {
     background-color: #58a5db;
     margin-bottom: -33px;
@@ -326,7 +344,7 @@ h2 {
     }
 
     .nav ul {
-        font: 2rem 'Escrow';
+        font: 1.5rem 'Escrow';
         list-style: none;
         text-align: right;
         margin: 15px 15px 15px auto;
