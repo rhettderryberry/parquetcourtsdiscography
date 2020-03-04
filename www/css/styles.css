@@ -1,4 +1,7 @@
 /*MOBILE STYLES START*/
+html, body {
+    margin: 0px;
+}
 body {
     margin: auto;
 }
@@ -51,7 +54,7 @@ h2 {
 
 .logo {
     background-color: #34363a;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-content: center;
     margin-bottom: -33px;
@@ -321,6 +324,9 @@ h2 {
 
 /*BIGGER STYLES BEGIN*/
 @media (min-width: 766px) {
+    html, body {
+        margin: 0px;
+    }
     #index {
         display: grid;
         width: 100%;
@@ -345,12 +351,14 @@ h2 {
     }
 
     #disc .discdiv {
-        height: 87.8vh;
+        height: 100vh;
         margin-top: 0px;
+        overflow: scroll;
+        overflow-x: hidden;
     }
 
     .discographyblocks {
-        height: 89vh;
+        height: 100vh;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -373,12 +381,12 @@ h2 {
         margin-bottom: -33px;
     }
     #band .overflow {
-        height: 89vh;
+        height: 100vh;
     }
 
     .bandinfo {
         margin-top: 0px;
-        height: 89vh;
+        height: 100vh;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -396,12 +404,12 @@ h2 {
     }
 
     #contact .overflow {
-        height: 88.88vh;
+        height: 100vh;
     }
 
     .contactform {
         margin-top: 0px;
-        height: 87.7vh;
+        height: 100vh;
     }
 
     #news {
@@ -416,13 +424,13 @@ h2 {
 
     #news .newsdiv {
         margin-top: 0px;
-        height: 89vh;
+        height: 100vh;
         overflow: scroll;
         overflow-x: hidden;
     }
 
     .newsstoryblocks {
-        height: 89vh;
+        height: 100vh;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -482,14 +490,14 @@ h2 {
     }
 
     .overflow {
-        height: 89vh;
+        height: 100vh;
         overflow: scroll;
         overflow-x: hidden;
     }
 
     .logo {
         background-color: #34363a;
-        height: 89vh;
+        height: 100vh;
         display: flex;
         align-content: center;
         grid-area: logo;
