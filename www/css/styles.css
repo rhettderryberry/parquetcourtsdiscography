@@ -64,9 +64,13 @@ h2 {
     padding-bottom: 15px;
 }
 
+#disc .discdiv {
+    margin-top: -32px;
+}
+
 .discdiv a {
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .discdiv a:hover {
@@ -115,6 +119,11 @@ h2 {
     padding-bottom: 15px;
 }
 
+#index .newsdiv {
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
 .newsdiv a {
     color: #000;
     text-decoration: none;
@@ -140,7 +149,7 @@ h2 {
 
 .bandinfo {
     background-color: #58a5db;
-    margin-top: -33px;
+    margin-top: -32px;
     /*check margins*/
     margin-bottom: -33px;
 }
@@ -164,7 +173,7 @@ h2 {
 .contactform {
     background-color: #58a5db;
     margin-bottom: -33px;
-    margin-top: -32px;
+    margin-top: -33px;
     padding-bottom: 15px;
 }
 
@@ -311,16 +320,16 @@ h2 {
 
 
 /*BIGGER STYLES BEGIN*/
-@media (min-width: 768px) {
+@media (min-width: 766px) {
     #index {
         display: grid;
         width: 100%;
         height: 100vh;
         grid-template-areas: "nav nav"
-            "logo discdiv"
-            "logo contactdiv"
-            "logo newsdiv"
-            "logo infodiv";
+                             "logo discdiv"
+                             "logo contactdiv"
+                             "logo newsdiv"
+                             "logo infodiv";
         grid-template-columns: 2fr 1fr;
         grid-template-rows: repeat(5, auto);
     }
@@ -337,6 +346,7 @@ h2 {
 
     #disc .discdiv {
         height: 87.8vh;
+        margin-top: 0px;
     }
 
     .discographyblocks {
@@ -359,6 +369,8 @@ h2 {
 
     #band .newsdiv {
         margin-top: 33px;
+        padding-bottom: 1px;
+        margin-bottom: -33px;
     }
     #band .overflow {
         height: 89vh;
@@ -404,7 +416,7 @@ h2 {
 
     #news .newsdiv {
         margin-top: 0px;
-        height: 87.8vh;
+        height: 89vh;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -554,15 +566,24 @@ h2 {
     .newsdiv {
         background-color: #d78029;
         text-align: center;
-        padding-bottom: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
         grid-area: newsdiv;
+    }
+
+    #contact .newsdiv {
+        margin-bottom: -33px;
+        padding-bottom: 1px;
+    }
+
+    #info .newsdiv {
+
     }
 
     .infodiv {
         background-color: #58a5db;
         text-align: center;
-        margin-top: -33px;
-        padding-bottom: 15px;
+        padding-bottom: 30px;
         grid-area: infodiv;
     }
 
