@@ -340,6 +340,10 @@ h2 {
         grid-template-rows: repeat(5, auto);
     }
 
+    .draggable {
+        cursor: move;
+    }
+
     #disc {
         display: grid;
         width: 100%;
@@ -747,5 +751,3 @@ h2 {
         color: #d78029;
     }
 }
-
-/*BIGGER STYLES BEGIN*/
