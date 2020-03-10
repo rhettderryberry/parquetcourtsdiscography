@@ -359,6 +359,7 @@ h2 {
         margin-top: 0px;
         overflow: scroll;
         overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .discographyblocks {
@@ -367,7 +368,7 @@ h2 {
         overflow-x: hidden;
     }
 
-    #americanalbumid, #lightupalbumid, #sunbathalbumid, #contentalbumid, #humanalbumid, #widealbumid {
+    #lightupalbumid, #sunbathalbumid, #contentalbumid, #humanalbumid, #widealbumid {
         display: none;
     }
 
