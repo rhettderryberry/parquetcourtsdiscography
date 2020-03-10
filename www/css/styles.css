@@ -367,6 +367,10 @@ h2 {
         overflow-x: hidden;
     }
 
+    #americanalbumid, #lightupalbumid, #sunbathalbumid, #contentalbumid, #humanalbumid, #widealbumid {
+        display: none;
+    }
+
     #band {
         display: grid;
         width: 100%;
