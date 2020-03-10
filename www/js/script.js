@@ -1,100 +1,4 @@
-// function hideShow1() {
-
-//     document.getElementById("americanalbumid").style.display = "block";
-
-//     document.getElementById("lightupalbumid").style.display = "none";
-
-//     document.getElementById("sunbathalbumid").style.display = "none";
-
-//     document.getElementById("contentalbumid").style.display = "none";
-
-//     document.getElementById("humanalbumid").style.display = "none";
-
-//     document.getElementById("widealbumid").style.display = "none";
-
-// }
-
-// function hideShow2() {
-
-//     document.getElementById("americanalbumid").style.display = "none";
-
-//     document.getElementById("lightupalbumid").style.display = "block";
-
-//     document.getElementById("sunbathalbumid").style.display = "none";
-
-//     document.getElementById("contentalbumid").style.display = "none";
-
-//     document.getElementById("humanalbumid").style.display = "none";
-
-//     document.getElementById("widealbumid").style.display = "none";
-
-// }
-
-// function hideShow3() {
-
-//     document.getElementById("americanalbumid").style.display = "none";
-
-//     document.getElementById("lightupalbumid").style.display = "none";
-
-//     document.getElementById("sunbathalbumid").style.display = "block";
-
-//     document.getElementById("contentalbumid").style.display = "none";
-
-//     document.getElementById("humanalbumid").style.display = "none";
-
-//     document.getElementById("widealbumid").style.display = "none";
-
-// }
-
-// function hideShow4() {
-
-//     document.getElementById("americanalbumid").style.display = "none";
-
-//     document.getElementById("lightupalbumid").style.display = "none";
-
-//     document.getElementById("sunbathalbumid").style.display = "none";
-
-//     document.getElementById("contentalbumid").style.display = "block";
-
-//     document.getElementById("humanalbumid").style.display = "none";
-
-//     document.getElementById("widealbumid").style.display = "none";
-
-// }
-
-// function hideShow5() {
-
-//     document.getElementById("americanalbumid").style.display = "none";
-
-//     document.getElementById("lightupalbumid").style.display = "none";
-
-//     document.getElementById("sunbathalbumid").style.display = "none";
-
-//     document.getElementById("contentalbumid").style.display = "none";
-
-//     document.getElementById("humanalbumid").style.display = "block";
-
-//     document.getElementById("widealbumid").style.display = "none";
-
-// }
-
-// function hideShow6() {
-
-//     document.getElementById("americanalbumid").style.display = "none";
-
-//     document.getElementById("lightupalbumid").style.display = "none";
-
-//     document.getElementById("sunbathalbumid").style.display = "none";
-
-//     document.getElementById("contentalbumid").style.display = "none";
-
-//     document.getElementById("humanalbumid").style.display = "none";
-
-//     document.getElementById("widealbumid").style.display = "block";
-
-// }
-
-var divs = ["americanalbumid", "lightupalbumid", "sunbathalbumid", "contentalbumid", "humanalbumid", "widealbumid"];
+var divs = ["americanalbumid", "lightupalbumid", "sunbathalbumid", "contentalbumid", "humanalbumid", "widealbumid", "parishshow", "savageandmurphy", "monasticliving", "poissonrouge", "golddiggers"];
     var visibleDivId = null;
     function divVisibility(divId) {
         if(visibleDivId === divId) {
@@ -110,6 +14,29 @@ var divs = ["americanalbumid", "lightupalbumid", "sunbathalbumid", "contentalbum
             divId = divs[i];
             div = document.getElementById(divId);
             if(visibleDivId === divId) {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        }
+    }
+
+var newsDivs = ["parishshow", "savageandmurphy", "monasticliving", "poissonrouge", "golddiggers"];
+    var newsVisibleDivId = null;
+    function newsDivVisibility(newsDivId) {
+        if(newsVisibleDivId === newsDivId) {
+            newsVisibleDivId = null;
+        } else {
+            newsVisibleDivId = newsDivId;
+        }
+        newsHideNonVisibleDivs();
+    }
+    function newsHideNonVisibleDivs() {
+        var newsI, newsDivId, newsDiv;
+        for(newsI = 0; newsI < newsDivs.length; newsI++) {
+            newsDivId = newsDivs[newsI];
+            div = document.getElementById(newsDivId);
+            if(newsVisibleDivId === newsDivId) {
                 div.style.display = "block";
             } else {
                 div.style.display = "none";
