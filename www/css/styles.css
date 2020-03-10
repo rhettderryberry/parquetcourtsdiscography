@@ -316,6 +316,12 @@ h2 {
     color: #d78029;
 }
 
+.dragme {
+    width: 100%;
+    margin: 90% auto auto auto;
+    position: relative;
+}
+
 /*MOBILE STYLES END*/
 
 
@@ -338,10 +344,6 @@ h2 {
                              "logo infodiv";
         grid-template-columns: 2fr 1fr;
         grid-template-rows: repeat(5, auto);
-    }
-
-    .draggable {
-        cursor: move;
     }
 
     #disc {
@@ -758,5 +760,12 @@ h2 {
 
     .newsitem a:hover {
         color: #d78029;
+    }
+
+    .dragme {
+        width: 100%;
+        margin: 40% auto auto auto;
+        cursor: move;
+        position: relative;
     }
 }
