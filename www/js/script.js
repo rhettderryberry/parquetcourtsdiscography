@@ -48,61 +48,66 @@ function newsHideNonVisibleDivs() {
     }
 }
 
-function startDrag(e) {
-    // determine event object
-    if (!e) {
-        var e = window.event;
+var dragItem = document.getElementById("#dragme");
+var container = document.getElementById("#logo");
+
+var active = false;
+var currentX;
+var currentY;
+var initialX;
+var initialY;
+var xOffset = 0;
+var yOffset = 0;
+
+container.addEventListener("touchstart", dragStart, false);
+container.addEventListener("touchend", dragEnd, false);
+container.addEventListener("touchmove", drag, false);
+
+container.addEventListener("mousedown", dragStart, false);
+container.addEventListener("mouseup", dragEnd, false);
+container.addEventListener("mousemove", drag, false);
+
+function dragStart(e) {
+    if (e.type === "touchstart") {
+        initialX = e.touches[0].clientX - xOffset;
+        initialY = e.touches[0].clientY - yOffset;
+    } else {
+        initialX = e.clientX - xOffset;
+        initialY = e.clientY - yOffset;
     }
-    if (e.preventDefault) e.preventDefault();
 
-    // IE uses srcElement, others use target
-    targ = e.target ? e.target : e.srcElement;
-
-    if (targ.className != 'dragme') {
-        return
-    };
-    // calculate event X, Y coordinates
-    offsetX = e.clientX;
-    offsetY = e.clientY;
-
-    // assign default values for top and left properties
-    if (!targ.style.left) {
-        targ.style.left = '0px'
-    };
-    if (!targ.style.top) {
-        targ.style.top = '0px'
-    };
-
-    // calculate integer values for top and left 
-    // properties
-    coordX = parseInt(targ.style.left);
-    coordY = parseInt(targ.style.top);
-    drag = true;
-
-    // move div element
-    document.onmousemove = dragDiv;
-    return false;
-
+    if (e.target === dragItem) {
+        active = true;
+    }
 }
 
-function dragDiv(e) {
-    if (!drag) {
-        return
-    };
-    if (!e) {
-        var e = window.event
-    };
-    // var targ=e.target?e.target:e.srcElement;
-    // move div element
-    targ.style.left = coordX + e.clientX - offsetX + 'px';
-    targ.style.top = coordY + e.clientY - offsetY + 'px';
-    return false;
+function dragEnd(e) {
+    initialX = currentX;
+    initialY = currentY;
+
+    active = false;
 }
 
-function stopDrag() {
-    drag = false;
+function drag(e) {
+    if (active) {
+
+        e.preventDefault();
+
+        if (e.type === "touchmove") {
+            currentX = e.touches[0].clientX - initialX;
+            currentY = e.touches[0].clientY - initialY;
+        } else {
+            currentX = e.clientX - initialX;
+            currentY = e.clientY - initialY;
+        }
+
+        xOffset = currentX;
+        yOffset = currentY;
+
+        setTranslate(currentX, currentY, dragItem);
+    }
 }
-window.onload = function () {
-    document.onmousedown = startDrag;
-    document.onmouseup = stopDrag;
+
+function setTranslate(xPos, yPos, el) {
+    el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0)";
 }
