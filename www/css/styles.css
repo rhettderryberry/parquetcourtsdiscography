@@ -7,12 +7,12 @@ body {
 }
 
 h1 {
-    font: 3rem 'Amador';
+    font: 3rem 'MedievalSharp';
     /*might be able to consolidate these classes. take anothe look at this*/
 }
 
 h2 {
-    font: 1.5rem 'Escrow';
+    font: 1.5rem 'Baskervville';
 }
 
 .logoimg {
@@ -32,14 +32,14 @@ h2 {
 }
 
 .nav ul {
-    font: 1rem 'Escrow';
+    font: 1rem 'Baskervville';
     list-style: none;
     text-align: right;
     margin: 15px 15px 15px auto;
 }
 
 .nav h1 {
-    font: 2rem 'Amador';
+    font: 2rem 'MedievalSharp';
     margin: auto auto auto 15px;
 }
 
@@ -98,7 +98,7 @@ h2 {
 .btn {
     background-color: #007250;
     color: #fef1d0;
-    font: 1rem 'Aktiv Grotesk';
+    font: 1rem 'Sen';
     padding: 8px;
     border: 2px solid #d78029;
     border-radius: 4px;
@@ -107,7 +107,7 @@ h2 {
 .btn:hover {
     background-color: #d78029;
     color: #fef1d0;
-    font: 1rem 'Aktiv Grotesk';
+    font: 1rem 'Sen';
     padding: 8px;
     border: 2px solid #007250;
     border-radius: 4px;
@@ -158,7 +158,7 @@ h2 {
 }
 
 .bandinfo p {
-    font: 1rem 'Aktiv Grotesk';
+    font: 1rem 'Sen';
 }
 
 .bandinfo h1,
@@ -168,7 +168,7 @@ h2 {
 
 .bandinfo ul {
     display: inline-block;
-    font: 1rem 'Aktiv Grotesk';
+    font: 1rem 'Sen';
     margin-bottom: -33px;
     padding-bottom: 15px;
 }
@@ -181,7 +181,7 @@ h2 {
 }
 
 .contactform label {
-    font: 1rem 'Escrow';
+    font: 1rem 'Baskervville';
 }
 
 .contactform input {
@@ -249,7 +249,7 @@ h2 {
 .contactbtn {
     background-color: #007250;
     color: #fef1d0;
-    font: 1rem 'Aktiv Grotesk';
+    font: 1rem 'Sen';
     padding: 8px;
     border: 2px solid #d78029;
     border-radius: 4px;
@@ -266,17 +266,17 @@ h2 {
 }
 
 .albumdiv h1 {
-    font: 3rem 'Escrow';
+    font: 3rem 'Baskervville';
     text-align: center;
 }
 
 .albumdiv h2 {
-    font: 1.5rem 'Amador';
+    font: 1.5rem 'MedievalSharp';
 }
 
 .albumdiv h3,
 .albumdiv li {
-    font: 1rem 'Escrow';
+    font: 1rem 'Baskervville';
 }
 
 .albumdiv img {
@@ -287,7 +287,7 @@ h2 {
 }
 
 .albumdiv p {
-    font: 1rem 'Aktiv Grotesk';
+    font: 1rem 'Sen';
 }
 
 .newsitem {
@@ -305,7 +305,7 @@ h2 {
 }
 
 .newsitem p {
-    font: 1rem 'Aktiv Grotesk';
+    font: 1rem 'Sen';
 }
 
 .newsitem a {
@@ -445,11 +445,11 @@ h2 {
     }
 
     h1 {
-        font: 3rem 'Amador';
+        font: 3rem 'MedievalSharp';
     }
 
     h2 {
-        font: 1.5rem 'Escrow';
+        font: 1.5rem 'Baskervville';
     }
 
     .nav {
@@ -468,7 +468,7 @@ h2 {
     }
 
     .nav ul {
-        font: 1.5rem 'Escrow';
+        font: 1.5rem 'Baskervville';
         list-style: none;
         text-align: right;
         margin: 15px 15px 15px auto;
@@ -485,7 +485,7 @@ h2 {
     }
 
     .nav h1 {
-        font: 4rem 'Amador';
+        font: 4rem 'MedievalSharp';
         margin: auto auto auto 15px;
     }
 
@@ -574,7 +574,7 @@ h2 {
     .btn {
         background-color: #007250;
         color: #fef1d0;
-        font: 1rem 'Aktiv Grotesk';
+        font: 1rem 'Sen';
         padding: 8px;
         border: 2px solid #d78029;
         border-radius: 4px;
@@ -605,7 +605,7 @@ h2 {
     }
 
     .bandinfo p {
-        font: 1rem 'Aktiv Grotesk';
+        font: 1rem 'Sen';
     }
 
     .bandinfo h1,
@@ -615,7 +615,7 @@ h2 {
 
     .bandinfo ul {
         display: inline-block;
-        font: 1rem 'Aktiv Grotesk';
+        font: 1rem 'Sen';
         padding-bottom: 15px;
     }
 
@@ -625,7 +625,7 @@ h2 {
     }
 
     .contactform label {
-        font: 1rem 'Escrow';
+        font: 1rem 'Baskervville';
     }
 
     .contactform input {
@@ -693,7 +693,7 @@ h2 {
     .contactbtn {
         background-color: #007250;
         color: #fef1d0;
-        font: 1rem 'Aktiv Grotesk';
+        font: 1rem 'Sen';
         padding: 8px;
         border: 2px solid #d78029;
         border-radius: 4px;
@@ -710,17 +710,17 @@ h2 {
     }
 
     .albumdiv h1 {
-        font: 3rem 'Escrow';
+        font: 3rem 'Baskervville';
         text-align: center;
     }
 
     .albumdiv h2 {
-        font: 1.5rem 'Amador';
+        font: 1.5rem 'MedievalSharp';
     }
 
     .albumdiv h3,
     .albumdiv li {
-        font: 1rem 'Escrow';
+        font: 1rem 'Baskervville';
     }
 
     .albumdiv img {
@@ -745,7 +745,7 @@ h2 {
     }
 
     .newsitem p {
-        font: 1rem 'Aktiv Grotesk';
+        font: 1rem 'Sen';
     }
 
     .newsitem a {
