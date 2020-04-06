@@ -46,6 +46,7 @@ h2 {
 
 .nav a {
     text-decoration: none;
+    color: #007250;
 }
 
 .nav a:hover {
@@ -173,6 +174,10 @@ h2 {
     padding-bottom: 15px;
 }
 
+.bandimg {
+    width: 100%;
+}
+
 .contactform {
     background-color: #58a5db;
     margin-bottom: -33px;
@@ -194,7 +199,7 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, auto);
     grid-gap: 5px;
-    width: 100% vw;
+    width: 100%;
 }
 
 .contactform h1 {
@@ -405,6 +410,10 @@ h2 {
         height: 89vh;
         overflow: scroll;
         overflow-x: hidden;
+    }
+
+    .bandimg {
+        width: 100%;
     }
 
     #contact {
@@ -656,7 +665,7 @@ h2 {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(5, auto);
         grid-gap: 5px;
-        width: 100% vw;
+        width: 100%;
     }
 
     .contactform h1 {
